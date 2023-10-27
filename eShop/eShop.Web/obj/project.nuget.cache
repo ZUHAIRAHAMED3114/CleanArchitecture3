@@ -1,38 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "kD/rIaGyya/hr3m+wAwpUn452gxXtzmOh3a5w5ILgyVOl/pA6jJy2samiDyGAAOI6Jc0we09T5epzTRjcx5a4Q==",
-  "success": false,
+  "dgSpecHash": "Nabg6r2JZfWGxFlHgiHpDWsyDRR9PWVH4ahpqvqw/dV/z1jMM5UEAmJVrvprfpu/eFin/eOngL4QiWH1zZAM4Q==",
+  "success": true,
   "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.12\\microsoft.aspnetcore.authorization.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.12\\microsoft.aspnetcore.components.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.12\\microsoft.aspnetcore.components.analyzers.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\5.0.12\\microsoft.aspnetcore.components.forms.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.12\\microsoft.aspnetcore.components.web.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.12\\microsoft.aspnetcore.metadata.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.jsinterop\\5.0.12\\microsoft.jsinterop.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project eShop.Web.CustomerPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.CustomerPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
-      "libraryId": "eShop.Web.CustomerPortal",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project eShop.Web.Common is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.Common supports: net5.0 (.NETCoreApp,Version=v5.0)",
-      "libraryId": "eShop.Web.Common",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project eShop.Web.AdminPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.AdminPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
-      "libraryId": "eShop.Web.AdminPortal",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
