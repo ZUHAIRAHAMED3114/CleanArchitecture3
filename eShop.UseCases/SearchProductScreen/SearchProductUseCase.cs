@@ -6,11 +6,11 @@ using System.Text;
 
 namespace eShop.UseCases.SearchProductScreen
 {
-    public class SearchProduct : ISearchProduct
+    public class SearchProductUseCase: ISearchProductUseCase
     {
         private readonly IProductRepository _productRepository;
 
-        public SearchProduct(IProductRepository productRepository)
+        public SearchProductUseCase(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }

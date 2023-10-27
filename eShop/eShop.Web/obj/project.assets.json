@@ -152,6 +152,19 @@
           "bin/placeholder/eShop.CoreBusiness.dll": {}
         }
       },
+      "eShop.DataStore.HardCoded/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "eShop.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.DataStore.HardCoded.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.DataStore.HardCoded.dll": {}
+        }
+      },
       "eShop.UseCases/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -463,6 +476,11 @@
       "path": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj",
       "msbuildProject": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj"
     },
+    "eShop.DataStore.HardCoded/1.0.0": {
+      "type": "project",
+      "path": "../../Plugins/eShop.DataStore.HardCoded/eShop.DataStore.HardCoded.csproj",
+      "msbuildProject": "../../Plugins/eShop.DataStore.HardCoded/eShop.DataStore.HardCoded.csproj"
+    },
     "eShop.UseCases/1.0.0": {
       "type": "project",
       "path": "../../eShop.UseCases/eShop.UseCases.csproj",
@@ -486,6 +504,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "eShop.DataStore.HardCoded >= 1.0.0",
       "eShop.Web.AdminPortal >= 1.0.0",
       "eShop.Web.Common >= 1.0.0",
       "eShop.Web.CustomerPortal >= 1.0.0"
@@ -526,6 +545,9 @@
             },
             "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
               "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj"
+            },
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj"
             }
           }
         }

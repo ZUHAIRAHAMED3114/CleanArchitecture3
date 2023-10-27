@@ -1,8 +1,8 @@
 ﻿using eShop.CoreBusiness.Models;
 
-namespace eShop.UseCases.SearchProductScreen
+namespace eShop.UseCases.ViewProductScreen
 {
-    public interface IViewProduct
+    public interface IViewProductUseCase
     {
         Product Execute(int id);
     }

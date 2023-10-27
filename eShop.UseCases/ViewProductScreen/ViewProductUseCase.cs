@@ -4,13 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace eShop.UseCases.SearchProductScreen
+namespace eShop.UseCases.ViewProductScreen
 {
-    public class ViewProduct : IViewProduct
+    public class ViewProductUseCase : IViewProductUseCase
     {
         private readonly IProductRepository _productRepository;
 
-        public ViewProduct(IProductRepository productRepository)
+        public ViewProductUseCase(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }

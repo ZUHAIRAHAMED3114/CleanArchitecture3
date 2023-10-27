@@ -1,3 +1,7 @@
+using eShop.DataStore.HardCoded;
+using eShop.UseCases.PlugInInterfaces.DataStore;
+using eShop.UseCases.SearchProductScreen;
+using eShop.UseCases.ViewProductScreen;
 using eShop.Web.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
@@ -29,6 +33,12 @@ namespace eShop.Web
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+
+            services.AddSingleton<IProductRepository, ProductRepository>();
+
+            services.AddTransient<IViewProductUseCase, ViewProductUseCase>()
+                    .AddTransient<ISearchProductUseCase, SearchProductUseCase>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
