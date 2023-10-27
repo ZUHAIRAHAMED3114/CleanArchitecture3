@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj",
+        "projectName": "eShop.CoreBusiness",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj",
+        "projectName": "eShop.UseCases",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj",
+        "projectName": "eShop.Web.AdminPortal",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj",
+        "projectName": "eShop.Web.Common",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj",
+        "projectName": "eShop.Web.CustomerPortal",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj"
+              },
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
+        "projectName": "eShop.Web",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj"
+              },
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+              },
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

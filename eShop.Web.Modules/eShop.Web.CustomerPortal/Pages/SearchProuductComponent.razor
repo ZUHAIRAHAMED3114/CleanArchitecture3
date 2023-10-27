@@ -1,0 +1,48 @@
+﻿@page "/products"
+
+@inject ISearchProduct searchProduct
+
+<h3>Search Products</h3>
+<br/>
+ <SearchBarComponent></SearchBarComponent>
+<br />
+
+<table class="table">
+ <thead>
+     <tr>
+         <th>Name</th>
+         <th>Brand</th>
+         <th>Price</th>
+     </tr>
+ </thead>
+ <tbody>
+     @if(products.Any()) {
+     @foreach (var product in products)
+      {
+             <ProductItem Product="product"></ProductItem>
+         
+      }
+    }else{
+     
+         <tr>
+             <td colspan="3"> No Products Found</td>
+         </tr>
+    }
+
+ </tbody>
+</table>
+
+
+@code {
+
+    private IEnumerable<Product> products;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        products = searchProduct.Execute(null);
+    }
+
+    void HandleSearch(string filter) {
+        products = searchProduct.Execute(filter);
+    }
+}

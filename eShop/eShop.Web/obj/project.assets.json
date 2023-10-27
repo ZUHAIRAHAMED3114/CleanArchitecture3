@@ -1,0 +1,166 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "eShop.Web.AdminPortal/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/eShop.Web.AdminPortal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.Web.AdminPortal.dll": {}
+        }
+      },
+      "eShop.Web.Common/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/eShop.Web.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.Web.Common.dll": {}
+        }
+      },
+      "eShop.Web.CustomerPortal/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/eShop.Web.CustomerPortal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.Web.CustomerPortal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShop.Web.AdminPortal/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.Web.Modules/eShop.Web.AdminPortal/eShop.Web.AdminPortal.csproj",
+      "msbuildProject": "../../eShop.Web.Modules/eShop.Web.AdminPortal/eShop.Web.AdminPortal.csproj"
+    },
+    "eShop.Web.Common/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.Web.Modules/eShop.Web.Common/eShop.Web.Common.csproj",
+      "msbuildProject": "../../eShop.Web.Modules/eShop.Web.Common/eShop.Web.Common.csproj"
+    },
+    "eShop.Web.CustomerPortal/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.Web.Modules/eShop.Web.CustomerPortal/eShop.Web.CustomerPortal.csproj",
+      "msbuildProject": "../../eShop.Web.Modules/eShop.Web.CustomerPortal/eShop.Web.CustomerPortal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "eShop.Web.AdminPortal >= 1.0.0",
+      "eShop.Web.Common >= 1.0.0",
+      "eShop.Web.CustomerPortal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
+      "projectName": "eShop.Web",
+      "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
+      "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj"
+            },
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+            },
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.Web.Modules\\eShop.Web.CustomerPortal\\eShop.Web.CustomerPortal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.CustomerPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.CustomerPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.CustomerPortal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.Common is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.Common supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.AdminPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.AdminPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.AdminPortal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

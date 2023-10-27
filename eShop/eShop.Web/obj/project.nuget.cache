@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "kD/rIaGyya/hr3m+wAwpUn452gxXtzmOh3a5w5ILgyVOl/pA6jJy2samiDyGAAOI6Jc0we09T5epzTRjcx5a4Q==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.CustomerPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.CustomerPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.CustomerPortal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.Common is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.Common supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project eShop.Web.AdminPortal is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project eShop.Web.AdminPortal supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "eShop.Web.AdminPortal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
