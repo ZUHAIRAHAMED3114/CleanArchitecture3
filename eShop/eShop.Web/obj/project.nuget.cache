@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CSNTJDiKnroxfFyGdVpaSbZAgMEjSTP13BUYx9QWtjAv3bE04VQp0GYaoDeeXT+yghJDifGdlaQQhvFuT59t7g==",
+  "dgSpecHash": "SsnZHT/akm50xz7NTQdyPevR2DjQ1y6pZlPdnqQrKS228ZAJrt6UbtpX0/8zd7jgy9e1eAtNjb/fIcioS+TTWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop\\eShop.Web\\eShop.Web.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.jsinterop\\5.0.12\\microsoft.jsinterop.5.0.12.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],

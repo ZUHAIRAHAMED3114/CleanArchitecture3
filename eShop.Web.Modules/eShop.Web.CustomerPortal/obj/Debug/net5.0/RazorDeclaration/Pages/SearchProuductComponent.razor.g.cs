@@ -82,6 +82,7 @@ using eShop.Web.CustomerPortal.Controls;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/products")]
     public partial class SearchProuductComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,7 +92,7 @@ using eShop.Web.CustomerPortal.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Pages\SearchProuductComponent.razor"
+#line 29 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Pages\SearchProuductComponent.razor"
        
 
     private IEnumerable<Product> products;

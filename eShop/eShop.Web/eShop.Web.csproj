@@ -3,12 +3,29 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="Shared\TopNavBar.razor" />
+	</ItemGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\..\eShop.Web.Modules\eShop.Web.AdminPortal\eShop.Web.AdminPortal.csproj" />
     <ProjectReference Include="..\..\eShop.Web.Modules\eShop.Web.Common\eShop.Web.Common.csproj" />
     <ProjectReference Include="..\..\eShop.Web.Modules\eShop.Web.CustomerPortal\eShop.Web.CustomerPortal.csproj" />
     <ProjectReference Include="..\..\Plugins\eShop.DataStore.HardCoded\eShop.DataStore.HardCoded.csproj" />
+    <ProjectReference Include="..\..\Plugins\eShop.ShoppingCart.LocalStorage\eShop.ShoppingCart.LocalStorage.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Shared\TopNavBar.razor" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Shared\TopNavBar.razor" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Include="Shared\TopNavBar.razor" />
   </ItemGroup>
 
 </Project>

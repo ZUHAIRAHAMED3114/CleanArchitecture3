@@ -91,7 +91,7 @@ using eShop.Web.CustomerPortal.Controls;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Pages\ViewProductComponent.razor"
+#line 21 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Pages\ViewProductComponent.razor"
        
 
     private Product product;
@@ -103,13 +103,20 @@ using eShop.Web.CustomerPortal.Controls;
     {
         base.OnParametersSet();
         if(Id>0)
-        product = viewProduct.Execute(Id);
+            product = viewProduct.Execute(Id);
+    }
+
+    void AddToCart() {
+        addProductToCart.Execute(product.Id);
+        navigationManager.NavigateTo("/");
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IAddProductToCartUseCase addProductToCart { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IViewProductUseCase viewProduct { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591
