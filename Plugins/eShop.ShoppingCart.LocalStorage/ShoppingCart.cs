@@ -27,6 +27,7 @@ namespace eShop.ShoppingCart.LocalStorage
         {
             Console.WriteLine($"Adding Product Whose Product Id {product.Id}");
             var order = await GetOrder();
+            // This is 
             order.AddProduct(product.Id,1,product.Price);
             await SetOrder(order);
             return order;
