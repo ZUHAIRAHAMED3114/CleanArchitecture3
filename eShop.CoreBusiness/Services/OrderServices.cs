@@ -45,8 +45,10 @@ namespace eShop.CoreBusiness.Services
                                             order.CustomerAddress,
                                             order.CustomerCity,
                                             order.CustomerStateProvinces,
-                                            order.CustomerCountry))
-            {
+                                            order.CustomerCountry)) {
+
+
+
                 return false;
             }
 

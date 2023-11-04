@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "eShop.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/eShop.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.CoreBusiness.dll": {}
+        }
+      },
+      "eShop.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "eShop.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShop.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj",
+      "msbuildProject": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj"
+    },
+    "eShop.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.UseCases/eShop.UseCases.csproj",
+      "msbuildProject": "../../eShop.UseCases/eShop.UseCases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "eShop.UseCases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.StateStore.DI\\eShop.StateStore.DI.csproj",
+      "projectName": "eShop.StateStore.DI",
+      "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.StateStore.DI\\eShop.StateStore.DI.csproj",
+      "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.StateStore.DI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\eShop.UseCases\\eShop.UseCases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,8 +1,12 @@
 using eShop.DataStore.HardCoded;
 using eShop.ShoppingCart.LocalStorage;
+using eShop.StateStore.DI;
 using eShop.UseCases.PlugInInterfaces.DataStore;
+using eShop.UseCases.PlugInInterfaces.StateStore;
 using eShop.UseCases.PlugInInterfaces.UI;
 using eShop.UseCases.SearchProductScreen;
+using eShop.UseCases.ShoppingCartScreen;
+using eShop.UseCases.ShoppingCartScreen.Interfaces;
 using eShop.UseCases.ViewProductScreen;
 using eShop.Web.Data;
 using Microsoft.AspNetCore.Builder;
@@ -40,9 +44,12 @@ namespace eShop.Web
 
             services.AddTransient<IViewProductUseCase, ViewProductUseCase>()
                     .AddTransient<ISearchProductUseCase, SearchProductUseCase>()
-                    .AddTransient<IAddProductToCartUseCase,AddProdcutToCartUseCase>()
-                    .AddTransient<IShoppingCart, eShop.ShoppingCart.LocalStorage.ShoppingCart>();
+                    .AddTransient<IAddProductToCartUseCase, AddProdcutToCartUseCase>()
+                    .AddTransient<IViewShoppingCartUseCase, ViewShoppingCartUseCase>();
 
+
+            services.AddScoped<IShoppingCart, eShop.ShoppingCart.LocalStorage.ShoppingCart>()
+                    .AddScoped<IShoppingCartStateStore, ShoppingCartStateStore>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

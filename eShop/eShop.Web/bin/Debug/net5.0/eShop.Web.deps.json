@@ -35,6 +35,7 @@
         "dependencies": {
           "eShop.DataStore.HardCoded": "1.0.0",
           "eShop.ShoppingCart.LocalStorage": "1.0.0",
+          "eShop.StateStore.DI": "1.0.0",
           "eShop.Web.AdminPortal": "1.0.0",
           "eShop.Web.Common": "1.0.0",
           "eShop.Web.CustomerPortal": "1.0.0",
@@ -482,6 +483,17 @@
         },
         "compile": {
           "eShop.ShoppingCart.LocalStorage.dll": {}
+        }
+      },
+      "eShop.StateStore.DI/1.0.0": {
+        "dependencies": {
+          "eShop.UseCases": "1.0.0"
+        },
+        "runtime": {
+          "eShop.StateStore.DI.dll": {}
+        },
+        "compile": {
+          "eShop.StateStore.DI.dll": {}
         }
       },
       "eShop.UseCases/1.0.0": {
@@ -2298,6 +2310,11 @@
       "sha512": ""
     },
     "eShop.ShoppingCart.LocalStorage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.StateStore.DI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

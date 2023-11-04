@@ -189,6 +189,19 @@
           "bin/placeholder/eShop.ShoppingCart.LocalStorage.dll": {}
         }
       },
+      "eShop.StateStore.DI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "eShop.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.StateStore.DI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.StateStore.DI.dll": {}
+        }
+      },
       "eShop.UseCases/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -540,6 +553,11 @@
       "path": "../../Plugins/eShop.ShoppingCart.LocalStorage/eShop.ShoppingCart.LocalStorage.csproj",
       "msbuildProject": "../../Plugins/eShop.ShoppingCart.LocalStorage/eShop.ShoppingCart.LocalStorage.csproj"
     },
+    "eShop.StateStore.DI/1.0.0": {
+      "type": "project",
+      "path": "../../Plugins/eShop.StateStore.DI/eShop.StateStore.DI.csproj",
+      "msbuildProject": "../../Plugins/eShop.StateStore.DI/eShop.StateStore.DI.csproj"
+    },
     "eShop.UseCases/1.0.0": {
       "type": "project",
       "path": "../../eShop.UseCases/eShop.UseCases.csproj",
@@ -565,6 +583,7 @@
     "net5.0": [
       "eShop.DataStore.HardCoded >= 1.0.0",
       "eShop.ShoppingCart.LocalStorage >= 1.0.0",
+      "eShop.StateStore.DI >= 1.0.0",
       "eShop.Web.AdminPortal >= 1.0.0",
       "eShop.Web.Common >= 1.0.0",
       "eShop.Web.CustomerPortal >= 1.0.0"
@@ -611,6 +630,9 @@
             },
             "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj": {
               "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj"
+            },
+            "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.StateStore.DI\\eShop.StateStore.DI.csproj": {
+              "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\CleanArchitecure3\\Plugins\\eShop.StateStore.DI\\eShop.StateStore.DI.csproj"
             }
           }
         }
