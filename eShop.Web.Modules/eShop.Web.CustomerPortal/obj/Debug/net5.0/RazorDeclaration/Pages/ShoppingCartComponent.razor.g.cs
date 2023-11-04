@@ -108,6 +108,9 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
 #line 39 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Pages\ShoppingCartComponent.razor"
        
     private Order order;
+
+
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
 
@@ -116,6 +119,10 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
             order = await viewShoppingCartUseCase.Execute();
             StateHasChanged();
         }
+    }
+
+    private void HandleUpdateProduct(Order order) {
+        this.order = order;
     }
 
 

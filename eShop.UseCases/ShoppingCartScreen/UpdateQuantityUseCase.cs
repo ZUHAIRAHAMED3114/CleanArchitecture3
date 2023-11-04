@@ -1,6 +1,7 @@
 ﻿using eShop.CoreBusiness.Models;
 using eShop.UseCases.PlugInInterfaces.StateStore;
 using eShop.UseCases.PlugInInterfaces.UI;
+using eShop.UseCases.ShoppingCartScreen.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,7 +22,6 @@ namespace eShop.UseCases.ShoppingCartScreen
         }
         public async Task<Order> Execute(int productId, int quantity)
         {
-
 
             var order = await shoppingCart.UpdateQuantityAsync(productId, quantity);
             shoppingCartStateStore.UpdateProductQuantity();

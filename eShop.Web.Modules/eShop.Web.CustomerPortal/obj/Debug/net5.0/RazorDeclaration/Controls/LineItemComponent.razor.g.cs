@@ -104,20 +104,40 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 27 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Controls\LineItemComponent.razor"
+#line 29 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Controls\LineItemComponent.razor"
        
 
-    void HandleQuantityChange() { 
-    }
-    void DeleteProduct(int productId) { 
-    }
 
     [Parameter]
     public OrderLineItem LineItem { get; set; }
+    [Parameter]
+    public EventCallback<Order> OnDeleteProduct { get; set; }
+    [Parameter]
+    public EventCallback<Order> OnUpdateProduct { get; set; }
+
+    async void HandleQuantityChange(ChangeEventArgs e) {
+        if (string.IsNullOrWhiteSpace(e.Value.ToString())) return;
+
+        if (int.TryParse(e.Value.ToString(), out var qty)) {
+            if (qty < 0) return;
+            var order = await updateQuantityUseCase.Execute(LineItem.ProductId,qty);
+            await OnUpdateProduct.InvokeAsync(order);
+        }
+
+
+
+    }
+    async void DeleteProduct(int productId) {
+        var order = await deleteProductUseCase.Execute(productId);
+        await OnDeleteProduct.InvokeAsync(order);
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IUpdateQuantityUseCase updateQuantityUseCase { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IDeleteProductUseCase deleteProductUseCase { get; set; }
     }
 }
 #pragma warning restore 1591

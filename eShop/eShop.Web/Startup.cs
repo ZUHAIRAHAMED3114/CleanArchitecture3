@@ -45,8 +45,9 @@ namespace eShop.Web
             services.AddTransient<IViewProductUseCase, ViewProductUseCase>()
                     .AddTransient<ISearchProductUseCase, SearchProductUseCase>()
                     .AddTransient<IAddProductToCartUseCase, AddProdcutToCartUseCase>()
-                    .AddTransient<IViewShoppingCartUseCase, ViewShoppingCartUseCase>();
-
+                    .AddTransient<IViewShoppingCartUseCase, ViewShoppingCartUseCase>()
+                    .AddTransient<IDeleteProductUseCase,DeleteProductUseCase>()
+                    .AddTransient<IUpdateQuantityUseCase, UpdateQuantityUseCase>();
 
             services.AddScoped<IShoppingCart, eShop.ShoppingCart.LocalStorage.ShoppingCart>()
                     .AddScoped<IShoppingCartStateStore, ShoppingCartStateStore>();

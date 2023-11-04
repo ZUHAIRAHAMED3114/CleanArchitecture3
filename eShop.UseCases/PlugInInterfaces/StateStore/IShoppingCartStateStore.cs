@@ -6,6 +6,6 @@ namespace eShop.UseCases.PlugInInterfaces.StateStore
     {
         Task<int> GetItemsCount();
         void UpdateLineItemsCount();
-
+        void UpdateProductQuantity();
     }
 }
