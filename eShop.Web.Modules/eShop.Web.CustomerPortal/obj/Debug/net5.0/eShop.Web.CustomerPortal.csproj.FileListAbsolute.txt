@@ -48,3 +48,7 @@ C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\Cl
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\Razor\Pages\ShoppingCartComponent.razor.g.cs
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\RazorDeclaration\Controls\CartComponent.razor.g.cs
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\Razor\Controls\CartComponent.razor.g.cs
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\RazorDeclaration\Controls\CustomerFormComponent.razor.g.cs
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\RazorDeclaration\Pages\PlaceOrderComponent.razor.g.cs
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\Razor\Controls\CustomerFormComponent.razor.g.cs
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\obj\Debug\net5.0\Razor\Pages\PlaceOrderComponent.razor.g.cs

@@ -96,6 +96,13 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 17 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\_Imports.razor"
+using eShop.Web.CustomerPortal.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     public partial class LineItemComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -114,7 +121,8 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
     public EventCallback<Order> OnDeleteProduct { get; set; }
     [Parameter]
     public EventCallback<Order> OnUpdateProduct { get; set; }
-
+    
+    //Bug Is there OnHandleQuantityChange Will Not Wokring....?
     async void HandleQuantityChange(ChangeEventArgs e) {
         if (string.IsNullOrWhiteSpace(e.Value.ToString())) return;
 

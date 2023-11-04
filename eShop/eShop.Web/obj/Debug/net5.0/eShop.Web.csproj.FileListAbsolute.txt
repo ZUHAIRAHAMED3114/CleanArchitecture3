@@ -74,3 +74,4 @@ C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\Cl
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop\eShop.Web\bin\Debug\net5.0\eShop.ShoppingCart.LocalStorage.pdb
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop\eShop.Web\bin\Debug\net5.0\eShop.StateStore.DI.dll
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop\eShop.Web\bin\Debug\net5.0\eShop.StateStore.DI.pdb
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop\eShop.Web\bin\Debug\net5.0\AutoMapper.dll

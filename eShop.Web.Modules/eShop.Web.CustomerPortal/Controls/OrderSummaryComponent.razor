@@ -34,8 +34,9 @@
             </div>
         </div>
     </div>
-        
+     @if(!HidePlaceholder) {    
     <button class="btn btn-primary" @onclick="PlaceOrder"> Place Your Order</button>
+    }
 </div>
 
 
@@ -47,7 +48,8 @@
     [Parameter]
     public Order Order { get; set; }
 
-
+    [Parameter]
+    public bool HidePlaceholder { get; set; }
 
     protected override void OnParametersSet()
     {

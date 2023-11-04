@@ -96,6 +96,13 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 17 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\_Imports.razor"
+using eShop.Web.CustomerPortal.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     public partial class OrderSummaryComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -104,7 +111,7 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 41 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Controls\OrderSummaryComponent.razor"
+#line 44 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\Controls\OrderSummaryComponent.razor"
        
     int itemsCount = 0;
     double itemsTotalPrice = 0;
@@ -112,9 +119,8 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
     [Parameter]
     public Order Order { get; set; }
 
-    void PlaceOrder() { 
-    
-    }
+    [Parameter]
+    public bool HidePlaceholder { get; set; }
 
     protected override void OnParametersSet()
     {
@@ -130,10 +136,16 @@ using eShop.UseCases.PlugInInterfaces.StateStore;
 
     }
 
+    void PlaceOrder()
+    {
+        navigationManager.NavigateTo("/PlaceOrder");
+    }
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
     }
 }
 #pragma warning restore 1591
