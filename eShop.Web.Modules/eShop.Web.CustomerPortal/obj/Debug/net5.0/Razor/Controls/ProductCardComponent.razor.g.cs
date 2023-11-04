@@ -100,6 +100,13 @@ using eShop.Web.CustomerPortal.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 18 "C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\CleanArchitecure3\eShop.Web.Modules\eShop.Web.CustomerPortal\_Imports.razor"
+using eShop.UseCases.OrderConfirmationScreen;
+
+#line default
+#line hidden
+#nullable disable
     public partial class ProductCardComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

@@ -3,6 +3,7 @@ using eShop.CoreBusiness.Services.Interfaces;
 using eShop.DataStore.HardCoded;
 using eShop.ShoppingCart.LocalStorage;
 using eShop.StateStore.DI;
+using eShop.UseCases.OrderConfirmationScreen;
 using eShop.UseCases.PlugInInterfaces.DataStore;
 using eShop.UseCases.PlugInInterfaces.StateStore;
 using eShop.UseCases.PlugInInterfaces.UI;
@@ -48,10 +49,12 @@ namespace eShop.Web
                     .AddTransient<ISearchProductUseCase, SearchProductUseCase>()
                     .AddTransient<IAddProductToCartUseCase, AddProdcutToCartUseCase>()
                     .AddTransient<IViewShoppingCartUseCase, ViewShoppingCartUseCase>()
-                    .AddTransient<IDeleteProductUseCase,DeleteProductUseCase>()
+                    .AddTransient<IDeleteProductUseCase, DeleteProductUseCase>()
                     .AddTransient<IUpdateQuantityUseCase, UpdateQuantityUseCase>()
-                    .AddTransient<IOrderServices,OrderServices>()
-                    .AddTransient<IPlaceOrderUseCase, PlaceOrderUseCase>();
+                    .AddTransient<IOrderServices, OrderServices>()
+                    .AddTransient<IPlaceOrderUseCase, PlaceOrderUseCase>()
+                    .AddTransient<IViewOrderConfirmationUseCase, ViewOrderConfirmationUseCase>();
+
             services.AddScoped<IShoppingCart, eShop.ShoppingCart.LocalStorage.ShoppingCart>()
                     .AddScoped<IShoppingCartStateStore, ShoppingCartStateStore>()
                     .AddScoped< IOrderRepository,OrderRepository>();
