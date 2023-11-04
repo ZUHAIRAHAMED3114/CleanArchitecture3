@@ -1,4 +1,6 @@
-﻿<div class="card m-2" style="width:25rem;">
+﻿@inject NavigationManager navigationManager
+
+<div class="card m-2" style="width:25rem;">
     <div class="card-body">
         <h5 class="card-title">Order Summary</h5>
         <div class="card-text d-flex justify-content-between">
@@ -45,9 +47,7 @@
     [Parameter]
     public Order Order { get; set; }
 
-    void PlaceOrder() { 
-    
-    }
+
 
     protected override void OnParametersSet()
     {
@@ -61,6 +61,11 @@
             });
         }
 
+    }
+
+    void PlaceOrder()
+    {
+        navigationManager.NavigateTo("/PlaceOrder");
     }
 
 }
